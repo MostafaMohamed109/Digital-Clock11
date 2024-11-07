@@ -1,0 +1,26 @@
+body {
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #333333;
+}
+
+.clock-container {
+    text-align: center;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.5);
+}
+
+.time {
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    font-size: 48px;
+    color: white;
+}
+
+.ampm {
+    font-family: Arial, sans-serif;
+    font-size: 18px;
+    color: white;
+}
